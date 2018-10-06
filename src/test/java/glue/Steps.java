@@ -1,8 +1,6 @@
 package glue;
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -11,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import cucumber.api.DataTable;
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
@@ -28,6 +25,9 @@ public void before(Scenario s) {
 	this.s = s;
 }
 
+	
+	
+	
 	@Given("^I am able to access magento web page$")
 	public void i_am_able_to_access_magento_web_page(){
 	    // Write code here that turns the phrase above into concrete actions
