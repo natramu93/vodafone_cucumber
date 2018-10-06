@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am able to access magento web page",
+            "match": {
+              "location": "Steps.i_am_able_to_access_magento_web_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Successful login scenario",
+        "description": "",
+        "id": "login-test;successful-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I update the username as \"natarajan.ramanathan93@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natarajan.ramanathan93@gmail.com",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.i_update_the_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I update the password as \"Welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome123",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.i_update_the_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I should find the magento id as \"ID: MAG003417822\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ID: MAG003417822",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_should_fin_the_magento_id_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "This feature talks about the positive and negative login scenarios\r\naksjdf;lkaj\r\nalsdkflkjashd\r\nlaksjdhfkljafsd",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "Test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Tag1"
+      }
+    ]
+  }
+]

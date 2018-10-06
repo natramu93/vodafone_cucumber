@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="Login Test" name="Successful login scenario" time="0">
+<system-out><![CDATA[Given I am able to access magento web page..................................skipped
+When I update the username as "natarajan.ramanathan93@gmail.com"............skipped
+And I update the password as "Welcome123"...................................skipped
+And I click on the login button.............................................skipped
+Then I should find the magento id as "ID: MAG003417822".....................skipped
+]]></system-out>
+</testcase>
+</testsuite>
